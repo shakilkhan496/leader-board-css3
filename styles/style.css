@@ -2,10 +2,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 /* common style  */
+.nav-bar {
+    background-color: #562EFF;
+    width: 100%;
+    height: 94px;
+    display: flex;
+
+    align-items: center;
+    color: white;
+
+
+}
+
+.nav-icon {}
+
+.nav-icon img {
+    width: 40.42px;
+    height: 51px;
+    padding-left: 285px;
+    padding-right: 15.58px;
+}
+
+.nav-title {
+
+    font-size: 24px;
+    font-weight: 500;
+
+
+
+}
+
+.nav-menu {
+    padding-left: 452px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#home {}
+
+#about {
+    padding-left: 36px;
+
+}
+
+#works {
+    padding-left: 36px;
+}
+
+.profile-icon img {
+    width: 51px;
+    height: 51px;
+    padding-left: 36px;
+}
 
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
+    border: 1px solid black;
+    margin: 0;
 }
 
 main {
@@ -17,9 +76,12 @@ main {
 .container {
     background-color: #ffffff;
     width: 870px;
+    height: 679px;
     padding: 30px;
-    margin-top: 21px;
+    margin-top: 36px;
     border-radius: 5px;
+    margin-left: 285px;
+    margin-right: 285px;
 
 }
 
@@ -117,6 +179,14 @@ hr {
     height: 104px;
 }
 
+.course-author {
+    font-family: 'Roboto';
+
+    font-weight: 400;
+    font-size: 14.6913px;
+    color: #ED6B4F;
+}
+
 .fa-star.filled {
     color: #FFC014;
 }
@@ -144,6 +214,15 @@ hr {
     padding-right: 9px;
 }
 
+/* footer  */
+footer {
+    background-color: #562EFF;
+    display: grid;
+    color: white;
+    justify-content: center;
+
+}
+
 /*======================
  -------------Media Queries
  ================== */
@@ -153,6 +232,8 @@ hr {
     .container {
         width: 100%;
     }
+
+
 
     .players,
     .blogs,
@@ -172,6 +253,8 @@ hr {
     .courses {}
 
 }
+
+
 
 /* Tablet devices */
 @media only screen and (min-width:688px) and (max-width:992px) {
